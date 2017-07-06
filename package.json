@@ -1,0 +1,26 @@
+{
+  "name": "zdravets",
+  "version": "1.0.0",
+  "description": "Site for beauty salon Zdravets",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "connect": "^3.6.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "test": "start test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milen4eto/Zdravets.git"
+  },
+  "author": "Milena ivanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milen4eto/Zdravets/issues"
+  },
+  "homepage": "https://github.com/milen4eto/Zdravets#readme"
+}
