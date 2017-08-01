@@ -25,7 +25,8 @@ gulp.task('html', function() {
 });
 
 gulp.task('watch', function(){
-    gulp.start('connect');
     gulp.watch('*.html', ['html']);
     gulp.watch(['assets/less/*.less', 'assets/css/*.css'], [ 'lessConvert' ] );
 });
+
+gulp.task('default', ['connect', 'watch']);
